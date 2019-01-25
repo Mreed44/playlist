@@ -2,6 +2,7 @@
 <html>
     <head>
         <title> PlayList Project! </title>
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Your CSS -->
@@ -9,15 +10,19 @@
     </head>
 
     <body>
-        <h1>My Playlist</h1>
-        <div id="form">
-            <p>Add a new song:</p>
-            <input placeholder="Song Name" id="song">
-            <input placeholder="Artist Name" id="artist">
-            <input placeholder="Song Length" id="length">
-            <input placeholder="Image URL" id="image">
-            <input placeholder="Song Link Address" id="link">
-            <button id="add">Add</button>
+        <div class="header">
+            <h1>My Musical Playlist</h1>
+            <div id="form">
+                <p>Add a new song:</p>
+                <div class ="inputs">
+                    <input placeholder="Song Name" id="song">
+                    <input placeholder="Artist Name" id="artist">
+                    <input placeholder="Musical Name" id="musical">
+                    <input placeholder="Image URL" id="image">
+                    <input placeholder="Song Link Address" id="link">
+                    <button id="add">Add</button>
+                </div>
+            </div>
         </div>
         <div id="cart">
             <div class="column" id="images">
@@ -29,7 +34,7 @@
             <div class="column" id="artists">
             
             </div>
-            <div class="column" id="lengths">
+            <div class="column" id="musicals">
             
             </div>
             <div class="column" id="links">
